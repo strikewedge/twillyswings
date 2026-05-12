@@ -21,6 +21,9 @@ Bio + array of links in `lib/links.ts`. Add/edit/remove cards by editing that fi
 - `strikewedge-wind.png` — iTunes Lookup API (`id=6767115548`), `artworkUrl512`.
 - `lowpoint.png` — manual upload. **Not yet in repo.** `LinkCard` falls back to a `bg-neutral-800` square if the image fails to load, so the layout doesn't break in the meantime.
 
+## Favicon
+`app/icon.png` is the @twillyswings IG avatar (100×100 PNG). Pulled from the og:image meta on the public IG profile and converted from JPEG to PNG via `sips`. Next.js's file-based icon convention auto-routes it as the favicon. To swap: drop a new PNG at `app/icon.png` and rebuild. IG's public CDN only exposes the 100×100 size to anonymous fetches — if a sharper favicon is wanted, save a higher-res copy manually and overwrite the file.
+
 ## TODO
 - [ ] Drop final `lowpoint.png` into `public/icons/` (the AoA/low-point screenshot already exists; just save it at that path, 512×512 ideal)
 - [x] Verify Strike Wedge icon fetch worked (got the SW black mark from Shopify CDN — confirm it looks right on dark bg; if not, swap for a white-mark variant)

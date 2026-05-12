@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://twillyswings.com"),
   title: "twillyswings",
   description: "massive golf nerd. stuff i've made.",
-  icons: { icon: "/icons/strikewedge.png" },
   openGraph: {
     title: "twillyswings",
     description: "massive golf nerd. stuff i've made.",
