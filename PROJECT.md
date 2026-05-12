@@ -10,7 +10,7 @@ Next.js 16 (App Router, static export), React 19, Tailwind CSS 4, TypeScript, de
 Bio + array of links in `lib/links.ts`. Add/edit/remove cards by editing that file. Order in the array = display order on the page.
 
 ## Current cards
-1. **Strike Wedge — 20% off** — https://strikewedge.com/discount/TWILLYSWINGS (discount code TWILLYSWINGS, auto-applied via URL) — `/icons/strikewedge.png`
+1. **Strike Wedge** — https://strikewedge.com/discount/TWILLYSWINGS (discount code TWILLYSWINGS, auto-applied via URL) — `/icons/strikewedge.png`
 2. **Mirror Vision** — https://apps.apple.com/us/app/mirror-vision-golf-coaching/id1381051713 — `/icons/mirror-vision.png`
 3. **Lowpoint** — https://lowpoint.strikewedge.com — `/icons/lowpoint.png`
 4. **Strike Wedge Wind** — https://apps.apple.com/au/app/strike-wedge-wind/id6767115548 — `/icons/strikewedge-wind.png`

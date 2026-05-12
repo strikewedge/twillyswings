@@ -1,13 +1,12 @@
 export const bio = {
   name: "twillyswings",
-  tagline: "massive golf nerd. here's some stuff i've made you can play with.",
+  tagline: "massive golf nerd. building tools for the obsessed.",
 };
 
 export const links = [
   {
-    title: "Strike Wedge — 20% off",
-    description:
-      "Constraint-based wedge training aid. 20,000+ sold. 20% off with code TWILLYSWINGS (auto-applied).",
+    title: "Strike Wedge",
+    description: "Constraint-based training aid. Click for 20% off.",
     href: "https://strikewedge.com/discount/TWILLYSWINGS",
     icon: "/icons/strikewedge.png",
   },
