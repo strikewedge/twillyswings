@@ -3,7 +3,27 @@ export const bio = {
   tagline: "massive golf nerd. building tools for the obsessed.",
 };
 
-export const links = [
+export type Link = {
+  title: string;
+  description: string;
+  href: string;
+  icon: string;
+  /** The one card the page is about right now: bigger, orange, first. */
+  featured?: boolean;
+  /** Small uppercase line above a featured card's title. */
+  kicker?: string;
+};
+
+export const links: Link[] = [
+  {
+    title: "Strike Wedge Launch",
+    description:
+      "A launch monitor for your wedge game, built for iPhone. Ball speed, launch angle and carry, with a slow motion replay of every shot. Every Strike Wedge comes with a year of the app.",
+    href: "https://app.strikewedge.com",
+    icon: "/icons/strikewedge-launch.png",
+    featured: true,
+    kicker: "New · App Store 13 October",
+  },
   {
     title: "Strike Wedge",
     description: "Constraint-based training aid. Click for 20% off.",

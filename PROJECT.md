@@ -10,6 +10,7 @@ Next.js 16 (App Router, static export), React 19, Tailwind CSS 4, TypeScript, de
 Bio + array of links in `lib/links.ts`. Add/edit/remove cards by editing that file. Order in the array = display order on the page.
 
 ## Current cards
+0. **Strike Wedge Launch** (FEATURED, 8 Sep 2026: bigger orange card, kicker "New · App Store 13 October") — https://app.strikewedge.com — `/icons/strikewedge-launch.png` (the app icon, `launch-monitor/appstore-screens/assets/app-icon-1024.png` resized to 512). `featured: true` in `lib/links.ts` switches `LinkCard` to the highlighted layout; only one card should carry it.
 1. **Strike Wedge** — https://strikewedge.com/discount/TWILLYSWINGS (discount code TWILLYSWINGS, auto-applied via URL) — `/icons/strikewedge.png`
 2. **Mirror Vision** — https://apps.apple.com/us/app/mirror-vision-golf-coaching/id1381051713 — `/icons/mirror-vision.png`
 3. **Lowpoint** — https://lowpoint.strikewedge.com — `/icons/lowpoint.png`
