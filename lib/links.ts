@@ -18,7 +18,7 @@ export const links: Link[] = [
   {
     title: "Strike Wedge Launch",
     description:
-      "A launch monitor for your wedge game, built for iPhone. Ball speed, launch angle and carry, with a slow motion replay of every shot. Every Strike Wedge comes with a year of the app.",
+      "Ball speed, launch angle and carry from your iPhone. Games and testing that make wedge play fun again. Tap to stay up to date.",
     href: "https://app.strikewedge.com",
     icon: "/icons/strikewedge-launch.png",
     featured: true,
