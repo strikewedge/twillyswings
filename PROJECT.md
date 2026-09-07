@@ -17,7 +17,7 @@ Bio + array of links in `lib/links.ts`. Add/edit/remove cards by editing that fi
 4. **Strike Wedge Wind** — https://apps.apple.com/au/app/strike-wedge-wind/id6767115548 — `/icons/strikewedge-wind.png`
 
 ## Icon sources
-- `strikewedge.png` — Shopify CDN: `https://strikewedge.com/cdn/shop/files/SW-mark-BLK_copy.png?width=512` (the `apple-touch-icon.png` and `favicon.ico` paths on strikewedge.com both 404; this CDN PNG is the SW black mark at 512×512).
+- `strikewedge.png` — since 8 Sep 2026 the app logo (same artwork as `strikewedge-launch.png`, the launch app icon: white disc, green SW mark, green tile), because the earlier Shopify CDN black mark (`SW-mark-BLK_copy.png`) was near-invisible on the dark page.
 - `mirror-vision.png` — iTunes Lookup API (`id=1381051713`), `artworkUrl512`.
 - `strikewedge-wind.png` — iTunes Lookup API (`id=6767115548`), `artworkUrl512`.
 - `lowpoint.png` — manual upload, screenshot of the Lowpoint AoA visualization (296×258, not square). `LinkCard` uses `object-cover` on a 64×64 box, so the sides get cropped slightly — the "AoA BALL" / "LOW POINT" text may clip. Swap for a square crop if it doesn't read well at small size.
